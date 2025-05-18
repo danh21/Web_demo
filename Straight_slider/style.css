@@ -1,0 +1,9 @@
+body {
+	background-color: aliceblue !important;
+}
+.container {
+	max-width: 500px;
+	text-align: center;
+	margin: auto;
+}
+

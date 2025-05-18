@@ -1,0 +1,18 @@
+body {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.room {
+  height: 500px;
+  width: 250px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  margin-top: -50px;
+}

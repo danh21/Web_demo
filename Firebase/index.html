@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web - Firebase</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="room">
+        <h2>Temperature: <span id="temp1">00</span></h2>
+        <img src="../resource/light_bulb_off.png" alt="" id="light_bulb1">
+        <div>
+            <button id="btnOn1">ON</button>
+            <button id="btnOff1">OFF</button>
+        </div>
+    </div>
+
+    <div class="room">
+        <h2>Temperature: <span id="temp2">00</span></h2>
+        <img src="../resource/light_bulb_off.png" alt="" id="light_bulb2">
+        <div>
+            <button id="btnOn2">ON</button>
+            <button id="btnOff2">OFF</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

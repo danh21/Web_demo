@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Image filtering in image processing.
+> Web demos.
 
 ---
 
@@ -14,21 +14,21 @@
     - [Prerequisites](#prerequisites)
     - [Source](#source)
     - [Usage](#usage)
-    - [Reference](#reference)
 
 ---
 
 ## 📝 About
 
-> This is a simple tool to filter image by many types.
+> Demos handle small modules for Web-app.
 
 ---
 
 ## ✨ Features
 
-- ✅ Add noise with density (Gaussian, Poisson, Salt & Pepper, Speckle)
-- ✅ Noise removal filter by size
-- ✅ Enhancement
+- ✅ MQTT protocol
+- ✅ Work with Firebase
+- ✅ Create Form, Slider
+- ✅ Design header tabs, toast messages, sidebar menu
 
 ---
 
@@ -37,21 +37,21 @@
 ### Prerequisites
 
 - List software dependencies or system requirements here:
-  - MATLAB
+  - HTML, CSS, JS
+  - nodejs
+  - VSCode
 
 ### Source
 
-- *.fig: design GUI
-- *.m: main app
+- *.html: deploy Web page
+- *.css: design
+- *.js: functionality
+- *.json: data
+- resouce/: images
 
 ### Usage
 
-- Open file *.m in MATLAB
-- Change folder to location containing source code
-- Run
-- When app window opens, choose image file first
-- Apply custom image filters (fill mandatory parameters) and see results 
-
-### Reference
-
-- 
+- Open workspace in VSCode
+- Install **Live Server** extension
+- Open .html file, **Go Live**
+  - For MQTT demo, use **node** to run test
